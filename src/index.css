@@ -1,7 +1,15 @@
+/* Pale Gold - #C0B283
+Silk - #DCD0C0
+Paper - #F4F4F4
+Charcoal - #373737 */
+
 body {
-  background-color: #FFCC00;
+  background-color: #1D2731;
   padding: 20px;
   margin: 0;
+}
+h1 {
+    color: #D9B310;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
@@ -12,7 +20,7 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color: #4484CE;
   padding: 0;
 }
 ul.header li a {
@@ -23,7 +31,7 @@ ul.header li a {
   display: inline-block;
 }
 .content {
-  background-color: #FFF;
+  background-color: #F4F4F4;
   padding: 20px;
 }
 .content h2 {
@@ -34,5 +42,5 @@ ul.header li a {
   margin-bottom: 10px;
 }
 .active {
-  background-color: #0099FF;
+  background-color: #0B3C5D;
 }
