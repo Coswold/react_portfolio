@@ -5,6 +5,8 @@ Charcoal - #373737 */
 
 body {
   background-color: #1D2731;
+  padding: 20px;
+  margin: 0;
 }
 h1 {
     color: #D9B310;
@@ -12,15 +14,10 @@ h1 {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
-.content body {
-    padding: 20px;
-    margin: 0;
-}
 .content {
   background-color: #F4F4F4;
   padding: 20px;
   margin-left: 300px; /* Same as the width of the sidenav */
-
 }
 .content h2 {
   padding: 0;
@@ -32,12 +29,12 @@ h1, h2, p, ul, li {
 
 /* Side Nav Stuff */
 .sidenav {
-  height: 100%;
-  width: 260px;
+  height: 93%;
+  width: 240px;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  /* left: 0; */
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
