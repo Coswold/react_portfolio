@@ -1,46 +1,136 @@
 import React, { Component } from "react";
-import Timeline from './timeline';
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 class Main extends Component {
-    state = {
-        timelineData: [
-          {
-            text: 'Wrote my first blog post ever on Medium',
-            date: 'March 03 2017',
-            category: {
-                tag: 'medium',
-                color: '#018f69'
-            },
-            link: {
-                url:
-                    'kotharidigital.com',
-                text: 'Read more'
-            }
-          },
-          {
-            text: 'This is the second timeline item',
-            date: 'September 22 2017',
-            category: {
-                tag: 'tag-two',
-                color: '#018f69'
-            },
-            link: {
-                url:
-                    'https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2',
-                text: 'Read more'
-            }
-        }
-    ]
-}
 render() {
     return (
       <div>
         <h2>HELLO</h2>
         <p>I'm a software engineer who is passionate about open source education,
             computer science, and helping people find their passion.</p>
-
         <p>If you'd like to learn more, have a look around.</p>
-        <Timeline data={this.state.timelineData} />
+
+<Timeline lineColor={'#ddd'}>
+  <TimelineItem
+    key="001"
+    dateText="11/2010 – Present"
+    style={{ color: '#e86971' }}
+  >
+    <h3>Title, Company</h3>
+    <h4>Subtitle</h4>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+  </TimelineItem>
+  <TimelineItem
+    key="002"
+    dateText="04/2009 – 11/2010"
+    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    bodyContainerStyle={{
+      background: '#ddd',
+      padding: '20px',
+      borderRadius: '8px',
+      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+    }}
+  >
+    <h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
+    <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+  </TimelineItem>
+  <TimelineItem
+    key="003"
+    dateComponent={(
+      <div
+        style={{
+          display: 'block',
+          float: 'left',
+          padding: '10px',
+          background: 'rgb(150, 150, 150)',
+          color: '#fff',
+        }}
+      >
+        11/2008 – 04/2009
+      </div>
+    )}
+  >
+    <h3>Title, Company</h3>
+    <h4>Subtitle</h4>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+  </TimelineItem>
+  <TimelineItem
+    key="004"
+    dateText="08/2008 – 11/2008"
+    dateInnerStyle={{ background: '#76bb7f' }}
+  >
+    <h3>Title, Company</h3>
+    <h4>Subtitle</h4>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+    <p>
+      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+      est.
+    </p>
+  </TimelineItem>
+</Timeline>
       </div>
     );
   }
