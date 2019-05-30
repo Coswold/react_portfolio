@@ -14,8 +14,7 @@ class Navbar extends Component {
         return (
             <HashRouter>
             <div>
-              <h1>Connor Oswold</h1>
-              <ul className="header">
+              <ul className="sidenav">
                   <li><NavLink exact to="/">About</NavLink></li>
                   <li><NavLink to="/stuff">Projects</NavLink></li>
                   <li><NavLink to="/contact">Contact</NavLink></li>

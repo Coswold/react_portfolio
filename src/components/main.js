@@ -11,39 +11,33 @@ render() {
         <p>If you'd like to learn more, have a look around.</p>
 
 <Timeline lineColor={'#ddd'}>
-  <TimelineItem
-    key="001"
-    dateText="11/2010 – Present"
-    style={{ color: '#e86971' }}
-  >
-    <h3>Title, Company</h3>
-    <h4>Subtitle</h4>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-  </TimelineItem>
+
+    <TimelineItem
+      key="001"
+      dateText="June 2016"
+      dateInnerStyle={{ background: '#61b8ff' }}
+      bodyContainerStyle={{
+        background: '#ddd',
+        padding: '20px',
+        borderRadius: '8px',
+        boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+      }}
+    >
+      <h3>Worked as a Systems Analyst</h3>
+      <h4>Symetra</h4>
+      <p>
+        Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
+        exercitation. Veniam velit adipisicing anim excepteur nostrud magna
+        nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
+        reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
+        est.
+      </p>
+    </TimelineItem>
+
   <TimelineItem
     key="002"
-    dateText="04/2009 – 11/2010"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    dateText="May 2016"
+    dateInnerStyle={{ background: '#61b8ff' }}
     bodyContainerStyle={{
       background: '#ddd',
       padding: '20px',
@@ -51,15 +45,8 @@ render() {
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
-    <h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
-    <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
+    <h3>Earned Bachelor's Degree</h3>
+    <h4>Washington State University</h4>
     <p>
       Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
       exercitation. Veniam velit adipisicing anim excepteur nostrud magna
@@ -68,60 +55,20 @@ render() {
       est.
     </p>
   </TimelineItem>
+
   <TimelineItem
     key="003"
-    dateComponent={(
-      <div
-        style={{
-          display: 'block',
-          float: 'left',
-          padding: '10px',
-          background: 'rgb(150, 150, 150)',
-          color: '#fff',
-        }}
-      >
-        11/2008 – 04/2009
-      </div>
-    )}
-  >
-    <h3>Title, Company</h3>
-    <h4>Subtitle</h4>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-  </TimelineItem>
-  <TimelineItem
-    key="004"
-    dateText="08/2008 – 11/2008"
+    dateText="June 2015"
     dateInnerStyle={{ background: '#76bb7f' }}
+    bodyContainerStyle={{
+      background: '#ddd',
+      padding: '20px',
+      borderRadius: '8px',
+      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+    }}
   >
-    <h3>Title, Company</h3>
-    <h4>Subtitle</h4>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
+    <h3>Studied in Istanbul</h3>
+    <h4>Istanbul Aydin University</h4>
     <p>
       Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
       exercitation. Veniam velit adipisicing anim excepteur nostrud magna
