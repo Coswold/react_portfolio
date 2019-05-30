@@ -14,11 +14,11 @@ class Navbar extends Component {
         return (
             <HashRouter>
             <div>
-              <ul className="sidenav">
-                  <li><NavLink exact to="/">About</NavLink></li>
-                  <li><NavLink to="/stuff">Projects</NavLink></li>
-                  <li><NavLink to="/contact">Contact</NavLink></li>
-              </ul>
+              <div className="sidenav">
+                  <a><NavLink exact to="/">About</NavLink></a>
+                  <a><NavLink to="/stuff">Projects</NavLink></a>
+                  <a><NavLink to="/contact">Contact</NavLink></a>
+              </div>
               <div className="content">
                 <Route exact path="/" component={Main}/>
                 <Route path="/stuff" component={Projects}/>
