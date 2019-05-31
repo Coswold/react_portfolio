@@ -44,6 +44,11 @@ h1, h2, h3, h4, p, ul, li {
   padding-top: 20px;
   border-radius: 15px;
 }
+.sidenav img {
+    /* width: 140px;
+    height: 140px; */
+    padding-left: 70px;
+}
 .sidenav a {
   font-family: 'Roboto Mono', monospace;
   padding: 6px 8px 6px 16px;

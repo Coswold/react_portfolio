@@ -7,6 +7,7 @@ import {
 import Main from "./main";
 import Projects from "./projects";
 import Contact from "./contact";
+import img from "../logo8.png";
 
 class Navbar extends Component {
 
@@ -15,6 +16,7 @@ class Navbar extends Component {
             <HashRouter>
             <div>
               <div className="sidenav">
+                  <img src={img} />
                   <a><NavLink exact to="/">About</NavLink></a>
                   <a><NavLink to="/stuff">Projects</NavLink></a>
                   <a><NavLink to="/contact">Contact</NavLink></a>
