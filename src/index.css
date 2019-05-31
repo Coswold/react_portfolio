@@ -4,7 +4,7 @@ Paper - #F4F4F4
 Charcoal - #373737 */
 
 body {
-  background-color: #CCDFCB;
+  background-color: #F2EEE2;
   padding: 20px;
   margin: 0;
 }
@@ -15,7 +15,7 @@ h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 .content {
-  text-align: center;
+  /* text-align: center; */
   background-color: #F4F4F4;
   padding: 20px;
   margin-left: 300px; /* Same as the width of the sidenav */
