@@ -4,7 +4,7 @@ Paper - #F4F4F4
 Charcoal - #373737 */
 
 body {
-  background-color: #F2EEE2;
+  background-color: #8b96a6;
   padding: 20px;
   margin: 0;
 }
@@ -14,17 +14,12 @@ h1 {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
-.topic {
-    border-radius: 15px 50px;
-    background: #43C0F6;
-    padding: 20px;
-    /* height: 150px; */
-}
 .content {
   /* text-align: center; */
   background-color: #F4F4F4;
   padding: 20px;
   margin-left: 300px; /* Same as the width of the sidenav */
+  border-radius: 15px;
 }
 .content h2 {
   padding: 0;
@@ -42,9 +37,10 @@ h1, h2, p, ul, li {
   z-index: 1;
   /* top: 0;
   left: 0; */
-  background-color: #111;
+  background-color: #0c0b06;
   overflow-x: hidden;
   padding-top: 20px;
+  border-radius: 15px;
 }
 
 .sidenav a {
