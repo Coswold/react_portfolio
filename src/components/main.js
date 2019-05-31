@@ -7,10 +7,14 @@ class Main extends Component {
 render() {
     return (
       <div>
-        <h2>HELLO</h2>
-        <p>I'm a software engineer who is passionate about open source education,
+        <div class="topic">
+            <h2>Connor Oswold</h2>
+            <h3>Software Engineer</h3>
+            <p>Hello, and thanks for stopping by. I'm a software engineer who is
+            passionate about open source education, machine learning,
             computer science, and helping people find their passion.</p>
-        <p>If you'd like to learn more, have a look around.</p>
+            <p>If you'd like to learn more, have a look around.</p>
+        </div>
 
         <VerticalTimeline>
           <VerticalTimelineElement

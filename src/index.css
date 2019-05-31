@@ -14,6 +14,12 @@ h1 {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+.topic {
+    border-radius: 15px 50px;
+    background: #43C0F6;
+    padding: 20px;
+    /* height: 150px; */
+}
 .content {
   /* text-align: center; */
   background-color: #F4F4F4;
