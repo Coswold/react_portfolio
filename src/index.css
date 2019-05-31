@@ -4,7 +4,7 @@ Paper - #F4F4F4
 Charcoal - #373737 */
 
 body {
-  background-color: #8b96a6;
+  background-color: #0A0A0A;
   padding: 20px;
   margin: 0;
 }
@@ -37,7 +37,7 @@ h1, h2, p, ul, li {
   z-index: 1;
   /* top: 0;
   left: 0; */
-  background-color: #0c0b06;
+  background-color: #282828;
   overflow-x: hidden;
   padding-top: 20px;
   border-radius: 15px;
