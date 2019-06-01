@@ -7,7 +7,7 @@ class Main extends Component {
 render() {
     return (
       <div>
-        <div class="topic">
+        <div class="topic bgr">
             <h2>Connor Oswold</h2>
             <h3>Software Engineer in San Francisco</h3>
             <p>Passionate about open source education, machine learning, and
@@ -15,11 +15,15 @@ render() {
             <p>If you'd like to learn more, have a look around.</p>
         </div>
 
+        <div class="title fontr">
+            <h3>Experiences and Accomplishments</h3>
+        </div>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="June 2016"
-            iconStyle={{ background: '#F81B84', color: '#fff' }}
+            iconStyle={{ background: '#43C0F6', color: '#fff' }}
             // icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Systems Analyst</h3>
@@ -43,7 +47,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2008 - 2010"
-            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            iconStyle={{ background: '#950740', color: '#fff' }}
             // icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Web Designer</h3>

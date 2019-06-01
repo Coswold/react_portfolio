@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+.card_setting img {
+    width: 100%;
+    height: 100px;
+}
+
 /* Float four columns side by side */
 .column {
   float: left;
   width: 50%;
   padding: 0 20px;
+  padding-top: 20px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -17,7 +23,6 @@
   content: "";
   display: table;
   clear: both;
-  padding-bottom: 35px;
 }
 
 .card:hover {
@@ -36,7 +41,7 @@
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 80px;
+  padding: 20px;
   text-align: center;
   background-color: #f1f1f1;
   transition: 0.3s;

@@ -16,9 +16,27 @@ h1 {
 h1, h2, h3, h4, p, ul, li {
   font-family: 'Roboto Mono', monospace;
 }
+.title {
+    text-align: center;
+    padding-top: 20px;
+}
+.fontb {
+    color: #43C0F6;
+}
+.fontr {
+    color: #950740;
+}
+.bgb {
+    background-color: #43C0F6;
+}
+.bgr {
+    background-color: #950740;
+}
+.bgy {
+    background-color: #F5CE28;
+}
 .topic {
     border-radius: 15px;
-    background-color: #950740;
     padding: 20px;
 }
 .topic p {
