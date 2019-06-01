@@ -9,10 +9,9 @@ render() {
       <div>
         <div class="topic">
             <h2>Connor Oswold</h2>
-            <h3>Software Engineer</h3>
-            <p>Hello, and thanks for stopping by. I'm a software engineer who is
-            passionate about open source education, machine learning,
-            computer science, and helping people find their passion.</p>
+            <h3>Software Engineer in San Francisco</h3>
+            <p>Passionate about open source education, machine learning, and
+            computer science.</p>
             <p>If you'd like to learn more, have a look around.</p>
         </div>
 
