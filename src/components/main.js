@@ -8,15 +8,21 @@ render() {
     return (
       <div>
         <div class="topic bgr">
-            <h2>Connor Oswold</h2>
+            <h2>CONNOR OSWOLD</h2>
             <h3>Software Engineer in San Francisco</h3>
             <p>Passionate about open source education, machine learning, and
-            computer science.</p>
+            computer science. I like to write on Medium about what I learn,
+            build applications to help others learn, and contribute to projects
+            that will make the world a cooler place.</p>
             <p>If you'd like to learn more, have a look around.</p>
         </div>
 
         <div class="title fontr">
-            <h3>Experiences and Accomplishments</h3>
+            <h3><span>Skills and Interests</span></h3>
+        </div>
+
+        <div class="title fontr">
+            <h3><span>Experiences and Accomplishments</span></h3>
         </div>
 
         <VerticalTimeline>
@@ -47,7 +53,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2008 - 2010"
-            iconStyle={{ background: '#950740', color: '#fff' }}
+            iconStyle={{ background: '#DE1738', color: '#fff' }}
             // icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Web Designer</h3>

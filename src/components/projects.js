@@ -9,11 +9,12 @@ class Projects extends Component {
 
         <div class="topic bgb">
             <h2>PROJECTS</h2>
+            <h3>Machine Learning, Web, and Native Apps</h3>
             <p>Here are some of the projects I have been working on:</p>
         </div>
 
         <div class="title fontb">
-            <h3>Machine Learning</h3>
+            <h3><span>Machine Learning</span></h3>
         </div>
 
         <div class="card_setting">
@@ -37,7 +38,7 @@ class Projects extends Component {
             </div>
 
             <div class="title fontb">
-                <h3>Web</h3>
+                <h3><span>Web</span></h3>
             </div>
 
             <div class="row">

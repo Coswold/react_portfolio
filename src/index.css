@@ -16,21 +16,39 @@ h1 {
 h1, h2, h3, h4, p, ul, li {
   font-family: 'Roboto Mono', monospace;
 }
+
+/* title stuff */
 .title {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
-.fontb {
+.title h3 {
+   width: 100%;
+   text-align: center;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   border-radius: 5px;
+}
+.title h3 span {
+    background:#F4F4F4;
+    padding:0 10px;
+}
+
+
+.fontb h3 {
     color: #43C0F6;
+    border-bottom: 3px solid #43C0F6;
 }
-.fontr {
-    color: #950740;
+.fontr h3 {
+    color: #DE1738;
+    border-bottom: 3px solid #DE1738;
+    /* Dark Maroon #950740 */
 }
 .bgb {
     background-color: #43C0F6;
 }
 .bgr {
-    background-color: #950740;
+    background-color: #DE1738;
 }
 .bgy {
     background-color: #F5CE28;
