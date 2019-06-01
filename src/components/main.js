@@ -10,15 +10,11 @@ render() {
         <div class="topic bgr">
             <h2>CONNOR OSWOLD</h2>
             <h3>Software Engineer in San Francisco</h3>
-            <p>Passionate about open source education, machine learning, and
+            <p>I'm passionate about open source education, machine learning, and
             computer science. I like to write on Medium about what I learn,
             build applications to help others learn, and contribute to projects
             that will make the world a cooler place.</p>
             <p>If you'd like to learn more, have a look around.</p>
-        </div>
-
-        <div class="title fontr">
-            <h3><span>Skills and Interests</span></h3>
         </div>
 
         <div class="title fontr">
@@ -115,6 +111,10 @@ render() {
             // icon={<StarIcon />}
           />
         </VerticalTimeline>
+
+        <div class="title fontr">
+            <h3><span>Skills and Interests</span></h3>
+        </div>
 
       </div>
     );
