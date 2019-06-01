@@ -7,13 +7,15 @@ class Projects extends Component {
     return (
       <div>
 
-        <div class="topic bgb">
+        <div class="topic bgb padding">
             <h2>PROJECTS</h2>
             <h3>Machine Learning, Web, and Native Apps</h3>
-            <p>Here are some of the projects I have been working on:</p>
+            <p>Here are some of my favorite projects. Many are complete, but
+            some are still in progress. All are open source, so check them out
+            and see if you'd like to contribute.</p>
         </div>
 
-        <div class="title fontb">
+        <div class="title fontb padding">
             <h3><span>Machine Learning</span></h3>
         </div>
 
@@ -37,7 +39,7 @@ class Projects extends Component {
               </div>
             </div>
 
-            <div class="title fontb">
+            <div class="title fontb padding">
                 <h3><span>Web</span></h3>
             </div>
 

@@ -14,10 +14,11 @@ render() {
             computer science. I like to write on Medium about what I learn,
             build applications to help others learn, and contribute to projects
             that will make the world a cooler place.</p>
-            <p>If you'd like to learn more, have a look around.</p>
+            <p>If you'd like to learn more, have a look around, or go directly to
+            the project page if you're more interested in what I'm working on.</p>
         </div>
 
-        <div class="title fontr">
+        <div class="title fontr padding">
             <h3><span>Experiences and Accomplishments</span></h3>
         </div>
 
@@ -113,7 +114,11 @@ render() {
         </VerticalTimeline>
 
         <div class="title fontr">
-            <h3><span>Skills and Interests</span></h3>
+            <h3><span>Skills and Tools</span></h3>
+        </div>
+
+        <div class="title fontr padding">
+            <h3><span>Other Interests</span></h3>
         </div>
 
       </div>

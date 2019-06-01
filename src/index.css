@@ -20,6 +20,8 @@ h1, h2, h3, h4, p, ul, li {
 /* title stuff */
 .title {
     text-align: center;
+}
+.padding {
     padding-top: 40px;
 }
 .title h3 {
@@ -33,7 +35,6 @@ h1, h2, h3, h4, p, ul, li {
     background:#F4F4F4;
     padding:0 10px;
 }
-
 
 .fontb h3 {
     color: #43C0F6;
