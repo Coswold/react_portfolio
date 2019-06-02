@@ -33,6 +33,10 @@ the transition this way this will only show when the card is half flipped*/
   width: 100%;
 }
 
+.Card .front {
+  display: inline-block;
+}
+
 /*following 2 set default properties for the front and back.*/
 .cardCont:hover .Card .front {
   display: none;

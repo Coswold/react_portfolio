@@ -127,46 +127,56 @@ render() {
 
             <div class="cardCont">
               <div class="Card">
-                <div class="front">Card1 Front
-                  <br />you can put what you want in here.. this is the front</div>
-                <div class="back">Card1 Back
-                  <br />you can put what you want in here.. this is the back</div>
+                <div class="front">
+                    <p>Card2 Front</p>
+                </div>
+                <div class="back">
+                    <p>Card2 Back</p>
+                </div>
               </div>
             </div>
 
             <div class="cardCont">
               <div class="Card">
-                <div class="front">Card2 Front
-                  <br />you can put what you want in here.. this is the front</div>
-                <div class="back">Card2 Back
-                  <br />you can put what you want in here.. this is the back</div>
+                <div class="front">
+                    <p>Card2 Front</p>
+                </div>
+                <div class="back">
+                    <p>Card2 Back</p>
+                </div>
               </div>
             </div>
 
             <div class="cardCont">
               <div class="Card">
-                <div class="front">Card2 Front
-                  <br />you can put what you want in here.. this is the front</div>
-                <div class="back">Card2 Back
-                  <br />you can put what you want in here.. this is the back</div>
+                <div class="front">
+                    <p>Card2 Front</p>
+                </div>
+                <div class="back">
+                    <p>Card2 Back</p>
+                </div>
               </div>
             </div>
 
             <div class="cardCont">
               <div class="Card">
-                <div class="front">Card2 Front
-                  <br />you can put what you want in here.. this is the front</div>
-                <div class="back">Card2 Back
-                  <br />you can put what you want in here.. this is the back</div>
+                <div class="front">
+                    <p>Card2 Front</p>
+                </div>
+                <div class="back">
+                    <p>Card2 Back</p>
+                </div>
               </div>
             </div>
 
             <div class="cardCont">
               <div class="Card">
-                <div class="front">Card2 Front
-                  <br />you can put what you want in here.. this is the front</div>
-                <div class="back">Card2 Back
-                  <br />you can put what you want in here.. this is the back</div>
+                <div class="front">
+                    <p>Card2 Front</p>
+                </div>
+                <div class="back">
+                    <p>Card2 Back</p>
+                </div>
               </div>
             </div>
 
