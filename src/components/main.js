@@ -4,6 +4,10 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 import SkillBar from 'react-skillbars';
+import GradIcon from './grad_icon';
+import WorkIcon from './brief_icon';
+import WriteIcon from './write_icon';
+import StarIcon from './star_icon';
 
 import '../flip_cards.css';
 import moto from "../motorcycle-64.png";
@@ -87,15 +91,30 @@ render() {
         </div>
 
         <div class="title fontr padding">
-            <h3><span>Experiences and Accomplishments</span></h3>
+            <h3><span>Experience</span></h3>
         </div>
 
         <VerticalTimeline>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            // date="June 2016"
+            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            icon={<GradIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">Make School @
+            Dominican University</h4>
+            <p>
+              CS Fundamentals, Data Science, Full-Stack Web
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="June 2016"
-            iconStyle={{ background: '#43C0F6', color: '#fff' }}
-            // icon={<WorkIcon />}
+            iconStyle={{ background: '#F5CE28', color: '#fff' }}
+            icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Systems Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">Symetra</h4>
@@ -103,81 +122,81 @@ render() {
               Creative Direction, User Experience, Visual Design, Project Management, Team Leading
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: '#F5CE28', color: '#fff' }}
-            // icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            className="vertical-timeline-element--education"
+            // date="2006 - 2008"
             iconStyle={{ background: '#DE1738', color: '#fff' }}
-            // icon={<WorkIcon />}
+            icon={<GradIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+            <h3 className="vertical-timeline-element-title">BA, Management
+            Information Systems</h3>
+            <h4 className="vertical-timeline-element-subtitle">Washington State
+            University</h4>
             <p>
-              User Experience, Visual Design
+              Associated Students of WSU Executive Committee, Selected for the Boeing Mentorship
+              Program, Member of the Sigma Phi Epsilon Fraternity
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: '#F81B84', color: '#fff' }}
-            // icon={<WorkIcon />}
+            // date="November 2014"
+            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">Co-Founder</h3>
+            <h4 className="vertical-timeline-element-subtitle">Geonectar</h4>
             <p>
-              User Experience, Visual Design
+              Resourced Manufacturing Techniques, Market Research, Non-Profit
+              Partners, Marketing Plans, Prototyping
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            // date="November 2014"
+            iconStyle={{ background: '#F5CE28', color: '#fff' }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Studio DEC Design</h4>
+            <p>
+              Interested in Design and Architecture, Introduced to Architecture
+              Practices
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            // icon={<SchoolIcon />}
+            // date="2014"
+            iconStyle={{ background: '#DE1738', color: '#fff' }}
+            icon={<GradIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+            <h3 className="vertical-timeline-element-title">Istanbul Aydin University</h3>
+            <h4 className="vertical-timeline-element-subtitle">Leadership Course</h4>
             <p>
-              Strategy, Social Media
+              Leadership Topics, Established Relationships With Students
+              From Over 10 Different Countries, Explored Turkish Culture
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            // icon={<SchoolIcon />}
+            // date="2011"
+            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            icon={<GradIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+            <h3 className="vertical-timeline-element-title">Early Life</h3>
+            <h4 className="vertical-timeline-element-subtitle">Exploration</h4>
             <p>
-              Creative Direction, User Experience, Visual Design
+              Various College Classes, Trying New Activities, Desire to Explore
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            // icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-              Creative Direction, Visual Design
-            </p>
-          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            // icon={<StarIcon />}
+            icon={<StarIcon />}
           />
         </VerticalTimeline>
 
