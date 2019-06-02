@@ -3,12 +3,72 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+import SkillBar from 'react-skillbars';
+
 import '../flip_cards.css';
 import moto from "../motorcycle-64.png";
 import coffee from "../coffee-7-64.png";
 import note from "../note-64.png";
 import book from "../book-64.png";
 import air from "../airplane-takeoff-64.png";
+
+const skills = [
+    {
+      "type": "Python",
+      "level": 85,
+      "color": {
+        "bar": "#43C0F6",
+        "title": {
+          "text": "#fff",
+          "background": "#282828"
+        }
+      }
+    },
+    {
+      "type": "Node.js",
+      "level": 80,
+      "color": {
+        "bar": "#F5CE28",
+        "title": {
+          "text": "#fff",
+          "background": "#282828"
+        }
+      }
+    },
+    {
+      "type": "Flask",
+      "level": 70,
+      "color": {
+        "bar": "#DE1738",
+        "title": {
+          "text": "#fff",
+          "background": "#282828"
+        }
+      }
+    },
+    {
+      "type": "React",
+      "level": 45,
+      "color": {
+        "bar": "#43C0F6",
+        "title": {
+          "text": "#fff",
+          "background": "#282828"
+        }
+      }
+    },
+    {
+      "type": "C",
+      "level": 35,
+      "color": {
+        "bar": "#F5CE28",
+        "title": {
+          "text": "#fff",
+          "background": "#282828"
+        }
+      }
+    }
+];
 
 class Main extends Component {
 render() {
@@ -120,9 +180,11 @@ render() {
           />
         </VerticalTimeline>
 
-        <div class="title fontr">
+        <div class="title fontr padding-after">
             <h3><span>Skills and Tools</span></h3>
         </div>
+
+        <SkillBar skills={skills}/>
 
         <div class="title fontr padding">
             <h3><span>Other Interests</span></h3>

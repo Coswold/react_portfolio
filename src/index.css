@@ -22,7 +22,10 @@ h1, h2, h3, h4, p, ul, li {
     text-align: center;
 }
 .padding {
-    padding-top: 40px;
+    padding-top: 20px;
+}
+.padding-after {
+    padding-bottom: 20px;
 }
 .title h3 {
    width: 100%;
