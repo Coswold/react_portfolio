@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+import '../flip_cards.css';
+
 class Main extends Component {
 render() {
     return (
@@ -15,7 +17,7 @@ render() {
             build applications to help others learn, and contribute to projects
             that will make the world a cooler place.</p>
             <p>If you'd like to learn more, have a look around, or go directly to
-            the project page if you're more interested in what I'm working on.</p>
+            the project page if you're interested in what I'm working on.</p>
         </div>
 
         <div class="title fontr padding">
@@ -25,7 +27,7 @@ render() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="June 2016"
+            // date="June 2016"
             iconStyle={{ background: '#43C0F6', color: '#fff' }}
             // icon={<WorkIcon />}
           >
@@ -119,6 +121,55 @@ render() {
 
         <div class="title fontr padding">
             <h3><span>Other Interests</span></h3>
+        </div>
+
+        <div class="title">
+
+            <div class="cardCont">
+              <div class="Card">
+                <div class="front">Card1 Front
+                  <br />you can put what you want in here.. this is the front</div>
+                <div class="back">Card1 Back
+                  <br />you can put what you want in here.. this is the back</div>
+              </div>
+            </div>
+
+            <div class="cardCont">
+              <div class="Card">
+                <div class="front">Card2 Front
+                  <br />you can put what you want in here.. this is the front</div>
+                <div class="back">Card2 Back
+                  <br />you can put what you want in here.. this is the back</div>
+              </div>
+            </div>
+
+            <div class="cardCont">
+              <div class="Card">
+                <div class="front">Card2 Front
+                  <br />you can put what you want in here.. this is the front</div>
+                <div class="back">Card2 Back
+                  <br />you can put what you want in here.. this is the back</div>
+              </div>
+            </div>
+
+            <div class="cardCont">
+              <div class="Card">
+                <div class="front">Card2 Front
+                  <br />you can put what you want in here.. this is the front</div>
+                <div class="back">Card2 Back
+                  <br />you can put what you want in here.. this is the back</div>
+              </div>
+            </div>
+
+            <div class="cardCont">
+              <div class="Card">
+                <div class="front">Card2 Front
+                  <br />you can put what you want in here.. this is the front</div>
+                <div class="back">Card2 Back
+                  <br />you can put what you want in here.. this is the back</div>
+              </div>
+            </div>
+
         </div>
 
       </div>

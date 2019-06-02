@@ -1,0 +1,42 @@
+.cardCont {
+  display: inline-block;
+  padding: 20px;
+  color: #FFF;
+}
+
+/*sets transition speed for the card flip you can change this*/
+.Card {
+  height: 150px;
+  width: 150px;
+  background-color: #DE1738;
+  transition: all .8s;
+  border-radius: 5px;
+}
+
+/*rotates on hover of outer div*/
+.cardCont:hover .Card {
+  transform: rotateY(-180deg);
+}
+
+/*sets transitions for the front and back.. delay should half
+the transition this way this will only show when the card is half flipped*/
+.Card .front,
+.Card .back {
+  transition: all .5s;
+  transition-delay: .8s;
+}
+
+/*fixes the fact that this will now be backwards and hides it normally*/
+.Card .back {
+  transform: rotateY(180deg);
+  display: none;
+  width: 100%;
+}
+
+/*following 2 set default properties for the front and back.*/
+.cardCont:hover .Card .front {
+  display: none;
+}
+.cardCont:hover .Card .back {
+  display: inline-block;
+}
