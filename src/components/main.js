@@ -4,6 +4,11 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 import '../flip_cards.css';
+import moto from "../motorcycle-64.png";
+import coffee from "../coffee-7-64.png";
+import note from "../note-64.png";
+import book from "../book-64.png";
+import air from "../airplane-takeoff-64.png";
 
 class Main extends Component {
 render() {
@@ -123,61 +128,77 @@ render() {
             <h3><span>Other Interests</span></h3>
         </div>
 
-        <div class="title">
+        <div class="contain">
 
-            <div class="cardCont">
-              <div class="Card">
-                <div class="front">
-                    <p>Card2 Front</p>
+            <div class="flip-row">
+
+              <div class="flip-column">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="image-center" src={coffee} />
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="vertical-center">Anytime, anywhere.</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="back">
-                    <p>Card2 Back</p>
+               </div>
+
+                <div class="flip-column">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="image-center" src={air} />
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="vertical-center">Exploring new cities and trying new foods.</p>
+                    </div>
+                  </div>
+                </div>
+               </div>
+
+               <div class="flip-column">
+               <div class="flip-card">
+                 <div class="flip-card-inner">
+                   <div class="flip-card-front">
+                     <img class="image-center" src={moto} />
+                   </div>
+                   <div class="flip-card-back">
+                     <p class="vertical-center">License: &#10003;
+                     Motorcycle: X</p>
+                   </div>
+                 </div>
+               </div>
+              </div>
+
+              <div class="flip-column">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img class="image-center" src={note} />
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="vertical-center">Live music and learning to play
+                    the drums.</p>
+                  </div>
                 </div>
               </div>
+             </div>
+
+             <div class="flip-column">
+             <div class="flip-card">
+               <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                   <img class="image-center" src={book} />
+                 </div>
+                 <div class="flip-card-back">
+                   <p class="vertical-center">Sci-fi, fantasy, and philosophy.</p>
+                 </div>
+               </div>
+             </div>
             </div>
 
-            <div class="cardCont">
-              <div class="Card">
-                <div class="front">
-                    <p>Card2 Front</p>
-                </div>
-                <div class="back">
-                    <p>Card2 Back</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="cardCont">
-              <div class="Card">
-                <div class="front">
-                    <p>Card2 Front</p>
-                </div>
-                <div class="back">
-                    <p>Card2 Back</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="cardCont">
-              <div class="Card">
-                <div class="front">
-                    <p>Card2 Front</p>
-                </div>
-                <div class="back">
-                    <p>Card2 Back</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="cardCont">
-              <div class="Card">
-                <div class="front">
-                    <p>Card2 Front</p>
-                </div>
-                <div class="back">
-                    <p>Card2 Back</p>
-                </div>
-              </div>
             </div>
 
         </div>

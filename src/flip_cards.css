@@ -1,46 +1,93 @@
-.cardCont {
-  display: inline-block;
-  padding: 20px;
-  color: #FFF;
+.contain {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-/*sets transition speed for the card flip you can change this*/
-.Card {
-  height: 150px;
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 25%;
+}
+
+/* Float four columns side by side */
+.flip-column {
+  float: left;
+  /* width: 20%; */
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.flip-row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.flip-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .flip-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.flip-card {
+  background-color: transparent;
   width: 150px;
-  background-color: #DE1738;
-  transition: all .8s;
-  border-radius: 5px;
+  height: 150px;
+  perspective: 1000px;
+  padding-top: 20px;
 }
 
-/*rotates on hover of outer div*/
-.cardCont:hover .Card {
-  transform: rotateY(-180deg);
-}
-
-/*sets transitions for the front and back.. delay should half
-the transition this way this will only show when the card is half flipped*/
-.Card .front,
-.Card .back {
-  transition: all .5s;
-  transition-delay: .8s;
-}
-
-/*fixes the fact that this will now be backwards and hides it normally*/
-.Card .back {
-  transform: rotateY(180deg);
-  display: none;
+.flip-card-inner {
+  position: relative;
   width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
 }
 
-.Card .front {
-  display: inline-block;
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 
-/*following 2 set default properties for the front and back.*/
-.cardCont:hover .Card .front {
-  display: none;
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
 }
-.cardCont:hover .Card .back {
-  display: inline-block;
+
+.flip-card-front {
+  background-color: #282828;
+  color: black;
+  border-radius: 8px;
+}
+
+.flip-card-back {
+  background-color: #DE1738;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 8px;
 }
