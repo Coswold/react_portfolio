@@ -11,6 +11,7 @@ import coffee from "../coffee-7-64.png";
 import note from "../note-64.png";
 import book from "../book-64.png";
 import air from "../airplane-takeoff-64.png";
+import pong from "../ping-pong-64.png";
 
 const skills = [
     {
@@ -260,6 +261,20 @@ render() {
                </div>
              </div>
             </div>
+
+            <div class="flip-column">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img class="image-center" src={pong} />
+                </div>
+                <div class="flip-card-back">
+                  <p class="vertical-center">Always up for a good game of
+                  ping-pong.</p>
+                </div>
+              </div>
+            </div>
+           </div>
 
             </div>
 
