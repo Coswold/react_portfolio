@@ -8,18 +8,18 @@ class Social extends Component {
       <div>
         <div class="logo-container row">
             <div class="padding-top">
-                <a href="https://www.github.com/coswold">
-                    <FontAwesomeIcon icon={['fab', 'medium']} size='3x' color='white' />
-                </a>
-                <a href="https://www.github.com/coswold" class="padding-left">
+                <a href="https://www.github.com/coswold" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'github']} size='3x' color='white' />
+                </a>
+                <a href="https://medium.com/@connor.oswold" target="_blank" class="padding-left">
+                    <FontAwesomeIcon icon={['fab', 'medium']} size='3x' color='white' />
                 </a>
             </div>
             <div class="padding-top">
-                <a href="https://www.github.com/coswold">
+                <a href="https://www.linkedin.com/in/connor-oswold/" target="_blank">
                     <FontAwesomeIcon icon={['fab', 'linkedin']} size='3x' color='white' />
                 </a>
-                <a href="https://www.github.com/coswold" class="padding-left">
+                <a href="mailto:connor.oswold@wsu.edu" class="padding-left">
                     <FontAwesomeIcon icon="envelope" size='3x' color='white' />
                 </a>
             </div>
