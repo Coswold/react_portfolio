@@ -27,12 +27,15 @@ class Projects extends Component {
                   <h3>Card 1</h3>
                   <p>Some text</p>
                   <p>Some text</p>
+                  <button class="button left">Deployment</button>
+                  <button class="button right">Code</button>
                 </div>
               </div>
 
               <div class="column">
                 <div class="card">
-                  <h3>Card 2</h3>
+                  <img src={img} />
+                  <h3>Card 1</h3>
                   <p>Some text</p>
                   <p>Some text</p>
                 </div>
@@ -44,23 +47,49 @@ class Projects extends Component {
             </div>
 
             <div class="row">
-                <div class="column">
-                  <div class="card">
-                    <h3>Card 3</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
-                  </div>
+              <div class="column">
+                <div class="card">
+                  <img src={img} />
+                  <h3>Card 1</h3>
+                  <p>Some text</p>
+                  <p>Some text</p>
                 </div>
+              </div>
 
-                <div class="column">
-                  <div class="card">
-                    <h3>Card 4</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
-                  </div>
+              <div class="column">
+                <div class="card">
+                  <img src={img} />
+                  <h3>Card 1</h3>
+                  <p>Some text</p>
+                  <p>Some text</p>
                 </div>
-
+              </div>
             </div>
+
+            <div class="title fontb padding">
+                <h3><span>Native</span></h3>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src={img} />
+                  <h3>Card 1</h3>
+                  <p>Some text</p>
+                  <p>Some text</p>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src={img} />
+                  <h3>Card 1</h3>
+                  <p>Some text</p>
+                  <p>Some text</p>
+                </div>
+              </div>
+            </div>
+
         </div>
 
       </div>

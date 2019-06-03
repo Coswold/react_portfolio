@@ -28,7 +28,7 @@ class Contact extends Component {
                     <li><FontAwesomeIcon icon="briefcase" size='5x' color='white' />
                     <h3>Currently Searching for a Software Engineering Position</h3></li>
                     <li class="padding-top"><FontAwesomeIcon icon="coffee" size='5x' color='white' />
-                    <h3>Open to coffee chats</h3></li>
+                    <h3>Open to Coffee Chats</h3></li>
                   </ul>
                 </div>
               </div>
