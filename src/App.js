@@ -4,9 +4,9 @@ import './App.css';
 import Navbar from './components/navbar';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faMusic, faBriefcase, faGraduationCap, faStar, faTableTennis, faBook, faCoffee, faEnvelope, faMotorcycle, faPlaneDeparture } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faMedium, faCoffee, faGithub, faLinkedin, faEnvelope)
+library.add(fab, faBriefcase, faGraduationCap, faStar, faMusic, faTableTennis, faBook, faPlaneDeparture, faMotorcycle, faMedium, faCoffee, faGithub, faLinkedin, faEnvelope)
 
 class App extends Component {
     render() {

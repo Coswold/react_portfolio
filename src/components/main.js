@@ -3,19 +3,11 @@ import React, { Component } from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import SkillBar from 'react-skillbars';
-import GradIcon from './grad_icon';
-import WorkIcon from './brief_icon';
-import WriteIcon from './write_icon';
-import StarIcon from './star_icon';
 
 import '../flip_cards.css';
-import moto from "../motorcycle-64.png";
-import coffee from "../coffee-7-64.png";
-import note from "../note-64.png";
-import book from "../book-64.png";
-import air from "../airplane-takeoff-64.png";
-import pong from "../ping-pong-64.png";
 
 const skills = [
     {
@@ -100,7 +92,7 @@ render() {
             className="vertical-timeline-element--education"
             // date="June 2016"
             iconStyle={{ background: '#43C0F6', color: '#fff' }}
-            icon={<GradIcon />}
+            icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Computer Science</h3>
             <h4 className="vertical-timeline-element-subtitle">Make School @
@@ -114,7 +106,7 @@ render() {
             className="vertical-timeline-element--work"
             // date="June 2016"
             iconStyle={{ background: '#F5CE28', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Systems Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">Symetra</h4>
@@ -128,7 +120,7 @@ render() {
             className="vertical-timeline-element--education"
             // date="2006 - 2008"
             iconStyle={{ background: '#DE1738', color: '#fff' }}
-            icon={<GradIcon />}
+            icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">BA, Management
             Information Systems</h3>
@@ -144,7 +136,7 @@ render() {
             className="vertical-timeline-element--work"
             // date="November 2014"
             iconStyle={{ background: '#43C0F6', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Co-Founder</h3>
             <h4 className="vertical-timeline-element-subtitle">Geonectar</h4>
@@ -158,7 +150,7 @@ render() {
             className="vertical-timeline-element--work"
             // date="November 2014"
             iconStyle={{ background: '#F5CE28', color: '#fff' }}
-            icon={<WorkIcon />}
+            icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Studio DEC Design</h4>
@@ -172,7 +164,7 @@ render() {
             className="vertical-timeline-element--education"
             // date="2014"
             iconStyle={{ background: '#DE1738', color: '#fff' }}
-            icon={<GradIcon />}
+            icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Istanbul Aydin University</h3>
             <h4 className="vertical-timeline-element-subtitle">Leadership Course</h4>
@@ -186,7 +178,7 @@ render() {
             className="vertical-timeline-element--education"
             // date="2011"
             iconStyle={{ background: '#43C0F6', color: '#fff' }}
-            icon={<GradIcon />}
+            icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Early Life</h3>
             <h4 className="vertical-timeline-element-subtitle">Exploration</h4>
@@ -197,7 +189,7 @@ render() {
 
           <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            icon={<StarIcon />}
+            icon={<FontAwesomeIcon icon="star" size='lg' color='white' />}
           />
         </VerticalTimeline>
 
@@ -219,7 +211,9 @@ render() {
                 <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img class="image-center" src={coffee} />
+                    <div class="image-center">
+                        <FontAwesomeIcon icon="coffee" size='5x' color='white' />
+                    </div>
                     </div>
                     <div class="flip-card-back">
                       <p class="vertical-center">Anytime, anywhere.</p>
@@ -232,7 +226,9 @@ render() {
                 <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img class="image-center" src={air} />
+                    <div class="image-center">
+                        <FontAwesomeIcon icon="plane-departure" size='5x' color='white' />
+                    </div>
                     </div>
                     <div class="flip-card-back">
                       <p class="vertical-center">Exploring new cities and trying new foods.</p>
@@ -245,7 +241,9 @@ render() {
                <div class="flip-card">
                  <div class="flip-card-inner">
                    <div class="flip-card-front">
-                     <img class="image-center" src={moto} />
+                    <div class="image-center">
+                        <FontAwesomeIcon icon="motorcycle" size='5x' color='white' />
+                    </div>
                    </div>
                    <div class="flip-card-back">
                      <p class="vertical-center">License: &#10003;
@@ -259,7 +257,9 @@ render() {
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img class="image-center" src={note} />
+                  <div class="image-center">
+                      <FontAwesomeIcon icon="music" size='5x' color='white' />
+                  </div>
                   </div>
                   <div class="flip-card-back">
                     <p class="vertical-center">Live music and learning to play
@@ -273,7 +273,9 @@ render() {
              <div class="flip-card">
                <div class="flip-card-inner">
                  <div class="flip-card-front">
-                   <img class="image-center" src={book} />
+                 <div class="image-center">
+                     <FontAwesomeIcon icon="book" size='5x' color='white' />
+                 </div>
                  </div>
                  <div class="flip-card-back">
                    <p class="vertical-center">Sci-fi, fantasy, and philosophy.</p>
@@ -286,7 +288,9 @@ render() {
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="image-center" src={pong} />
+                <div class="image-center">
+                    <FontAwesomeIcon icon="table-tennis" size='5x' color='white' />
+                </div>
                 </div>
                 <div class="flip-card-back">
                   <p class="vertical-center">Always up for a good game of
