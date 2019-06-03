@@ -79,7 +79,7 @@ render() {
             build applications to help others learn, and contribute to projects
             that will make the world a cooler place.</p>
             <p>If you'd like to learn more, have a look around, or go directly to
-            the project page if you're interested in what I'm working on.</p>
+            the project page if you're interested in what I'm working on (UNDER CONSTRUCTION).</p>
         </div>
 
         <div class="title fontr padding">

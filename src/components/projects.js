@@ -8,7 +8,7 @@ class Projects extends Component {
       <div>
 
         <div class="topic bgb padding">
-            <h2>PROJECTS</h2>
+            <h2>PROJECTS (UNDER CONSTRUCTION)</h2>
             <h3>Machine Learning, Web, and Native Apps</h3>
             <p>Here are some of my favorite projects. Many are complete, but
             some are still in progress. All are open source, so check them out
