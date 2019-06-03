@@ -26,7 +26,7 @@ class Projects extends Component {
         <div class="card_setting">
             <div class="row">
               <div class="column">
-                <div class="card">
+                <div class="card card-padding">
                   <img src={ldg} />
                   <h3>Sentence Generator</h3>
                   <p>Python, Flask, Heroku, Bootstrap</p>
