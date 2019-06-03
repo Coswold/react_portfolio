@@ -9,7 +9,9 @@ import {
 import Main from "./main";
 import Projects from "./projects";
 import Contact from "./contact";
+
 import img from "../logo8.png";
+import Social from './social';
 
 class Navbar extends Component {
 
@@ -18,10 +20,11 @@ class Navbar extends Component {
             <HashRouter>
             <div>
               <div className="sidenav">
-                  <img src={img} />
-                  <a><NavLink exact to="/">About</NavLink></a>
-                  <a><NavLink to="/stuff">Projects</NavLink></a>
-                  <a><NavLink to="/contact">Contact</NavLink></a>
+                  <img class="profile" src={img} />
+                  <a class="ni"><NavLink exact to="/">About</NavLink></a>
+                  <a class="ni"><NavLink to="/stuff">Projects</NavLink></a>
+                  <a class="ni"><NavLink to="/contact">Contact</NavLink></a>
+                  <Social />
               </div>
               <div className="content">
                 <Route exact path="/" component={Main}/>

@@ -17,9 +17,19 @@ h1, h2, h3, h4, p, ul, li {
   font-family: 'Roboto Mono', monospace;
 }
 
+.social:hover {
+    background-color: #3e8e41
+}
+
 /* title stuff */
 .title {
     text-align: center;
+}
+.padding-left {
+    padding-left: 40px;
+}
+.padding-top {
+    padding-top: 40px;
 }
 .padding {
     padding-top: 20px;
@@ -100,25 +110,31 @@ h1, h2, h3, h4, p, ul, li {
   padding-top: 20px;
   border-radius: 15px;
 }
-.sidenav img {
+.profile {
     width: 100px;
     height: 120px;
     padding-left: 90px;
+    padding-bottom: 30px;
 }
-.sidenav a {
+.sidenav .ni a{
   font-family: 'Roboto Mono', monospace;
   /* padding: 6px 8px 6px 16px; */
-  padding-top: 8px;
+  padding-top: 16px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   text-align: center;
 }
-.sidenav a:hover {
+.sidenav .ni a:hover {
   color: #F1F1F1;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.logo-container {
+    padding-top: 40px;
+    text-align: center;
 }
