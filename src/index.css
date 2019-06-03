@@ -93,8 +93,9 @@ ul {
   /* text-align: center; */
   background-color: #F4F4F4;
   padding: 20px;
-  margin-left: 300px; /* Same as the width of the sidenav */
+  margin-left: 20%; /* Same as the width of the sidenav */
   border-radius: 15px;
+  width: 77%;
 }
 .content h2 {
   padding: 0;
@@ -107,7 +108,7 @@ ul {
 /* Side Nav Stuff */
 .sidenav {
   height: 92%;
-  width: 280px;
+  width: 18%;
   position: fixed;
   z-index: 1;
   /* top: 0;
@@ -116,11 +117,11 @@ ul {
   overflow-x: hidden;
   padding-top: 20px;
   border-radius: 15px;
+  text-align: center;
 }
-.profile {
+.sidenav img {
     width: 100px;
     height: 120px;
-    padding-left: 90px;
     padding-bottom: 30px;
 }
 .sidenav .ni a{
@@ -131,7 +132,6 @@ ul {
   font-size: 30px;
   color: #818181;
   display: block;
-  text-align: center;
 }
 .sidenav .ni a:hover {
   color: #F1F1F1;
@@ -143,5 +143,4 @@ ul {
 
 .logo-container {
     padding-top: 40px;
-    text-align: center;
 }

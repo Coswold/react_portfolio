@@ -128,7 +128,7 @@ render() {
             University</h4>
             <p>
               Associated Students of WSU Executive Committee, Selected for the Boeing Mentorship
-              Program, Member of the Sigma Phi Epsilon Fraternity
+              Program, Member of the Sigma Phi Epsilon Fraternity, GO COUGS!
             </p>
           </VerticalTimelineElement>
 
