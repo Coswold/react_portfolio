@@ -166,8 +166,8 @@ render() {
             iconStyle={{ background: '#DE1738', color: '#fff' }}
             icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
-            <h3 className="vertical-timeline-element-title">Istanbul Aydin University</h3>
-            <h4 className="vertical-timeline-element-subtitle">Leadership Course</h4>
+            <h3 className="vertical-timeline-element-title">Leadership Course</h3>
+            <h4 className="vertical-timeline-element-subtitle">Istanbul Aydin University</h4>
             <p>
               Leadership Topics, Established Relationships With Students
               From Over 10 Different Countries, Explored Turkish Culture

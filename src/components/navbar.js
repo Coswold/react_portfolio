@@ -22,13 +22,13 @@ class Navbar extends Component {
               <div className="sidenav">
                   <img class="profile" src={img} />
                   <a class="ni"><NavLink exact to="/">About</NavLink></a>
-                  <a class="ni"><NavLink to="/stuff">Projects</NavLink></a>
+                  <a class="ni"><NavLink to="/projects">Projects</NavLink></a>
                   <a class="ni"><NavLink to="/contact">Contact</NavLink></a>
                   <Social />
               </div>
               <div className="content">
                 <Route exact path="/" component={Main}/>
-                <Route path="/stuff" component={Projects}/>
+                <Route path="/projects" component={Projects}/>
                 <Route path="/contact" component={Contact}/>
               </div>
             </div>
