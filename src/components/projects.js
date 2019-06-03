@@ -27,8 +27,12 @@ class Projects extends Component {
                   <h3>Card 1</h3>
                   <p>Some text</p>
                   <p>Some text</p>
-                  <button class="button left">Deployment</button>
-                  <button class="button right">Code</button>
+                  <a href="https://www.w3schools.com" target="_blank">
+                    <button class="button left">Deployment</button>
+                  </a>
+                  <a href="https://www.w3schools.com" target="_blank">
+                    <button class="button right">Code</button>
+                  </a>
                 </div>
               </div>
 
