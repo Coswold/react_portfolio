@@ -13,59 +13,39 @@ const skills = [
     {
       "type": "Python",
       "level": 85,
-      "color": {
-        "bar": "#43C0F6",
-        "title": {
-          "text": "#fff",
-          "background": "#282828"
-        }
-      }
     },
     {
       "type": "Node.js",
       "level": 80,
-      "color": {
-        "bar": "#F5CE28",
-        "title": {
-          "text": "#fff",
-          "background": "#282828"
-        }
-      }
     },
     {
       "type": "Flask",
       "level": 70,
-      "color": {
-        "bar": "#DE1738",
-        "title": {
-          "text": "#fff",
-          "background": "#282828"
-        }
-      }
     },
     {
       "type": "React",
       "level": 45,
-      "color": {
-        "bar": "#43C0F6",
-        "title": {
-          "text": "#fff",
-          "background": "#282828"
-        }
-      }
     },
     {
       "type": "C",
       "level": 35,
-      "color": {
-        "bar": "#F5CE28",
-        "title": {
-          "text": "#fff",
-          "background": "#282828"
-        }
-      }
     }
 ];
+const colors = {
+    "bar": "00c07f",
+    "title": {
+        "text": "#fff",
+        "background": "#282828"
+    },
+    "bar": {
+      "hue": 200,
+      "saturation": 100,
+      "level": {
+        "minimum": 10,
+        "maximum": 100
+      }
+    }
+}
 
 class Main extends Component {
 render() {
@@ -90,7 +70,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             // date="June 2016"
-            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Computer Science</h3>
@@ -104,7 +84,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="June 2016"
-            iconStyle={{ background: '#F5CE28', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Systems Analyst</h3>
@@ -118,7 +98,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             // date="2006 - 2008"
-            iconStyle={{ background: '#DE1738', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">BA, Management
@@ -134,7 +114,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="November 2014"
-            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Co-Founder</h3>
@@ -148,7 +128,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="November 2014"
-            iconStyle={{ background: '#F5CE28', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="briefcase" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Intern</h3>
@@ -162,7 +142,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             // date="2014"
-            iconStyle={{ background: '#DE1738', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Leadership Course</h3>
@@ -176,7 +156,7 @@ render() {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             // date="2011"
-            iconStyle={{ background: '#43C0F6', color: '#fff' }}
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
             icon={<FontAwesomeIcon icon="graduation-cap" size='lg' color='white' />}
           >
             <h3 className="vertical-timeline-element-title">Early Life</h3>
@@ -187,7 +167,7 @@ render() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            iconStyle={{ background: '#282828', color: '#fff' }}
             icon={<FontAwesomeIcon icon="star" size='lg' color='white' />}
           />
         </VerticalTimeline>
@@ -196,7 +176,7 @@ render() {
             <h3><span>Skills and Tools</span></h3>
         </div>
 
-        <SkillBar skills={skills}/>
+        <SkillBar skills={skills} animationDelay={500} colors={colors} />
 
         <div class="title fontr padding">
             <h3><span>Other Interests</span></h3>

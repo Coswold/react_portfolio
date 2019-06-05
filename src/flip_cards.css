@@ -80,7 +80,7 @@
 }
 
 .flip-card-back {
-  background-color: #DE1738;
+  background-color: #00c07f;
   color: white;
   transform: rotateY(180deg);
   border-radius: 8px;

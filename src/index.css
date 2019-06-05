@@ -53,26 +53,26 @@ ul {
 }
 
 .fontb h3 {
-    color: #43C0F6;
-    border-bottom: 3px solid #43C0F6;
+    color: #005995;
+    border-bottom: 3px solid #005995;
 }
 .fontr h3 {
-    color: #DE1738;
-    border-bottom: 3px solid #DE1738;
+    color: #005995;
+    border-bottom: 3px solid #005995;
     /* Dark Maroon #950740 */
 }
 .fonty h3 {
-    color: #F5CE28;
-    border-bottom: 3px solid #F5CE28;
+    color: #005995;
+    border-bottom: 3px solid #005995;
 }
 .bgb {
-    background-color: #43C0F6;
+    background-color: #005995;
 }
 .bgr {
-    background-color: #DE1738;
+    background-color: #005995;
 }
 .bgy {
-    background-color: #F5CE28;
+    background-color: #005995;
 }
 .topic {
     border-radius: 15px;
