@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Navbar from './components/navbar';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faMusic, faBriefcase, faGraduationCap, faStar, faTableTennis, faBook, faCoffee, faEnvelope, faMotorcycle, faPlaneDeparture } from '@fortawesome/free-solid-svg-icons';

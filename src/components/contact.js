@@ -5,7 +5,7 @@ import '../status.css';
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div class="padding-top">
         <div class="topic bgy">
             <h2>GET IN TOUCH</h2>
             <p>Contact about software engineering, machine learning, start-ups,

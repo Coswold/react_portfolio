@@ -83,7 +83,7 @@ render() {
         </div>
 
         <div class="title fontr padding">
-            <h3><span>Experience</span></h3>
+            <h3><span>Curriculum Vitae</span></h3>
         </div>
 
         <VerticalTimeline>

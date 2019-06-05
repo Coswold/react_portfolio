@@ -7,20 +7,14 @@ import lib from "../lib.png";
 import ldg from "../loading.jpg";
 
 class Projects extends Component {
+
   render() {
     return (
       <div>
 
-        <div class="topic bgb padding">
-            <h2>PROJECTS</h2>
-            <h3>Machine Learning, Web, and Native Apps</h3>
-            <p>Here are some of my favorite projects. Many are complete, but
-            some are still in progress. All are open source, so check them out
-            and see if you'd like to contribute.</p>
-        </div>
 
         <div class="title fontb padding">
-            <h3><span>Machine Learning</span></h3>
+            <h3><span>Projects</span></h3>
         </div>
 
         <div class="card_setting">
@@ -28,7 +22,7 @@ class Projects extends Component {
               <div class="column">
                 <div class="card card-padding">
                   <img src={ldg} />
-                  <h3>Sentence Generator</h3>
+                  <h3>Tweet Generator</h3>
                   <p>Python, Flask, Heroku, Bootstrap</p>
                   <a href="https://github.com/Coswold/tweet_generator" target="_blank">
                     <button class="button left">Visit</button>
@@ -52,13 +46,7 @@ class Projects extends Component {
                   </a>
                 </div>
               </div>
-            </div>
 
-            <div class="title fontb padding">
-                <h3><span>Web</span></h3>
-            </div>
-
-            <div class="row">
               <div class="column">
                 <div class="card">
                   <img src={dbapi} />
@@ -87,11 +75,8 @@ class Projects extends Component {
                   </a>
                 </div>
               </div>
-            </div>
 
-            <div class="title fontb padding">
-                <h3><span>Native</span></h3>
-            </div>
+             </div>
 
             <div class="row">
               <div class="column">
@@ -121,10 +106,38 @@ class Projects extends Component {
                   </a>
                 </div>
               </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src={ldg} />
+                  <h3>In Progress</h3>
+                  <p>Python</p>
+                  <a href="https://www.github.com/coswold" target="_blank">
+                    <button class="button left">Visit</button>
+                  </a>
+                  <a href="https://www.github.com/coswold" target="_blank">
+                    <button class="button right">Code</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src={ldg} />
+                  <h3>In Progress</h3>
+                  <p>Python</p>
+                  <a href="https://www.github.com/coswold" target="_blank">
+                    <button class="button left">Visit</button>
+                  </a>
+                  <a href="https://www.github.com/coswold" target="_blank">
+                    <button class="button right">Code</button>
+                  </a>
+                </div>
+              </div>
+
             </div>
 
         </div>
-
       </div>
     );
   }

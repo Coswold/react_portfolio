@@ -124,7 +124,7 @@ ul {
     height: 120px;
     padding-bottom: 30px;
 }
-.sidenav .ni a{
+.sidenav .ni {
   font-family: 'Roboto Mono', monospace;
   /* padding: 6px 8px 6px 16px; */
   padding-top: 16px;
@@ -133,7 +133,7 @@ ul {
   color: #818181;
   display: block;
 }
-.sidenav .ni a:hover {
+.sidenav .ni:hover {
   color: #F1F1F1;
 }
 @media screen and (max-height: 450px) {
