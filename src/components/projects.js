@@ -24,7 +24,7 @@ class Projects extends Component {
                   <img src={ldg} />
                   <h3>Tweet Generator</h3>
                   <p>Python, Flask, Heroku, Bootstrap</p>
-                  <a href="https://github.com/Coswold/tweet_generator" target="_blank">
+                  <a href="https://philosopher-gen.herokuapp.com" target="_blank">
                     <button class="button left">Visit</button>
                   </a>
                   <a href="https://github.com/Coswold/tweet_generator" target="_blank">
