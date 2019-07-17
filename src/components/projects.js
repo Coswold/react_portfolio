@@ -36,7 +36,7 @@ class Projects extends Component {
               <div class="column">
                 <div class="card">
                   <img src={ldg} />
-                  <h3>State Capital API</h3>
+                  <h3>Capital API</h3>
                   <p>Python, RESTful practices, MongoDB, Heroku, Flask</p>
                   <a href="https://capitals-api.herokuapp.com/" target="_blank">
                     <button class="button left">Visit</button>
