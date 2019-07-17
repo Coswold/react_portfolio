@@ -36,12 +36,12 @@ class Projects extends Component {
               <div class="column">
                 <div class="card">
                   <img src={ldg} />
-                  <h3>In Progress</h3>
-                  <p>Python</p>
-                  <a href="https://www.github.com/coswold" target="_blank">
+                  <h3>State Capital API</h3>
+                  <p>Python, RESTful practices, MongoDB, Heroku, Flask</p>
+                  <a href="https://capitals-api.herokuapp.com/" target="_blank">
                     <button class="button left">Visit</button>
                   </a>
-                  <a href="https://www.github.com/coswold" target="_blank">
+                  <a href="https://github.com/Coswold/api_challenge" target="_blank">
                     <button class="button right">Code</button>
                   </a>
                 </div>
