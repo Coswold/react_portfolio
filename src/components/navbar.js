@@ -10,7 +10,7 @@ import Main from "./main";
 import Projects from "./projects";
 import Contact from "./contact";
 
-import img from "../logo8.png";
+import img from "../0.jpeg";
 import Social from './social';
 import '../index.css';
 

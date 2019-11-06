@@ -53,16 +53,15 @@ render() {
       <div>
         <div class="topic bgr">
             <h2>CONNOR OSWOLD</h2>
-            <h3>Software Engineer in San Francisco</h3>
-            <p>I'm passionate about open source education, machine learning, and
-            computer science. I like to write on Medium about what I learn,
-            build applications to help others learn, and contribute to projects
-            that will make the world a cooler place.</p>
+            <h3>Creative Human</h3>
+            <p>I'm a writer, coder, and creator of different media.
+            I like to write about what I learn, help others discover their passion,
+            and contribute to projects with passionate people.</p>
             <p>If you'd like to learn more, have a look around.</p>
         </div>
 
         <div class="title fontr padding">
-            <h3><span>Curriculum Vitae</span></h3>
+            <h3><span>Experiences & Education</span></h3>
         </div>
 
         <VerticalTimeline>
@@ -78,6 +77,19 @@ render() {
             Dominican University</h4>
             <p>
               CS Fundamentals, Data Science, Full-Stack Web
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            // date="June 2016"
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
+            icon={<FontAwesomeIcon icon="plane-departure" size='lg' color='white' />}
+          >
+            <h3 className="vertical-timeline-element-title">Vagabonding In Europe</h3>
+            <h4 className="vertical-timeline-element-subtitle">Spain & Italy</h4>
+            <p>
+              Explored Spanish Culture, Searched For Passion
             </p>
           </VerticalTimelineElement>
 
@@ -108,6 +120,19 @@ render() {
             <p>
               Associated Students of WSU Executive Committee, Selected for the Boeing Mentorship
               Program, Member of the Sigma Phi Epsilon Fraternity, GO COUGS!
+            </p>
+          </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            // date="2006 - 2008"
+            iconStyle={{ background: '#00c07f', color: '#fff' }}
+            icon={<FontAwesomeIcon icon="plane-departure" size='lg' color='white' />}
+          >
+            <h3 className="vertical-timeline-element-title">Backpacking Excursion</h3>
+            <h4 className="vertical-timeline-element-subtitle">Southeast Asia</h4>
+            <p>
+              Explored Culture And Landscapes In: Thailand, Vietnam, Cambodia, Malaysia
             </p>
           </VerticalTimelineElement>
 
@@ -172,14 +197,18 @@ render() {
           />
         </VerticalTimeline>
 
+        {/*
+
         <div class="title fontr padding-after">
             <h3><span>Skills and Tools</span></h3>
         </div>
 
         <SkillBar skills={skills} animationDelay={500} colors={colors} />
 
+        */}
+
         <div class="title fontr padding">
-            <h3><span>Other Interests</span></h3>
+            <h3><span>Some Interests</span></h3>
         </div>
 
         <div class="contain">
@@ -191,11 +220,11 @@ render() {
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
                     <div class="image-center">
-                        <FontAwesomeIcon icon="coffee" size='5x' color='white' />
+                        <FontAwesomeIcon icon="hand-rock" size='5x' color='white' />
                     </div>
                     </div>
                     <div class="flip-card-back">
-                      <p class="vertical-center">Anytime, anywhere.</p>
+                      <p class="vertical-center">Jiu-Jitsu and Fitness</p>
                     </div>
                   </div>
                 </div>
@@ -241,8 +270,7 @@ render() {
                   </div>
                   </div>
                   <div class="flip-card-back">
-                    <p class="vertical-center">Live music and learning to play
-                    the drums.</p>
+                    <p class="vertical-center">Listening and learning to play music.</p>
                   </div>
                 </div>
               </div>
@@ -272,7 +300,7 @@ render() {
                 </div>
                 </div>
                 <div class="flip-card-back">
-                  <p class="vertical-center">Always up for a good game of
+                  <p class="vertical-center">Love a good game of
                   ping-pong.</p>
                 </div>
               </div>

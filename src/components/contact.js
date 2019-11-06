@@ -8,12 +8,12 @@ class Contact extends Component {
       <div class="padding-top">
         <div class="topic bgy">
             <h2>GET IN TOUCH</h2>
-            <p>Contact about software engineering, machine learning, start-ups,
-            or even your journey into tech. Connect with me on LinkedIn and feel
-             free to follow me on Medium and Github. If you want a more direct
-             contact, shoot me an email.</p>
-             <p>All of the links are to the left, just click on the associated
-             icon. Thanks for stopping by!</p>
+            <p>I'm always looking for exciting projects to work on and help out with.
+            Whether it's an acting role, writing a blog or screenplay, or creating an app or website,
+            send information on the details.</p>
+
+            <p>Connect with me through email and feel free to follow me on Medium and Github.
+            Links to the left are Github, Medium, my knowledge base, and email. Thanks for stopping by!</p>
         </div>
 
         <div class="title fonty padding">
@@ -26,9 +26,9 @@ class Contact extends Component {
                 <div class="status">
                   <ul>
                     <li><FontAwesomeIcon icon="briefcase" size='5x' color='white' />
-                    <h3>Currently Searching for a Software Engineering Position</h3></li>
+                    <h3>Currently a Production Assistant in Seattle</h3></li>
                     <li class="padding-top"><FontAwesomeIcon icon="coffee" size='5x' color='white' />
-                    <h3>Open to Coffee Chats</h3></li>
+                    <h3>Always Open to Coffee Chats</h3></li>
                   </ul>
                 </div>
               </div>

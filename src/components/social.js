@@ -16,8 +16,8 @@ class Social extends Component {
                 </a>
             </div>
             <div class="padding-top">
-                <a href="https://www.linkedin.com/in/connor-oswold/" target="_blank">
-                    <FontAwesomeIcon icon={['fab', 'linkedin']} size='3x' color='white' />
+                <a href="https://coswold.github.io/knowledge_base/#/" target="_blank">
+                    <FontAwesomeIcon icon={['fas', 'brain']} size='3x' color='white' />
                 </a>
                 <a href="mailto:connor.oswold@wsu.edu" class="padding-left">
                     <FontAwesomeIcon icon="envelope" size='3x' color='white' />

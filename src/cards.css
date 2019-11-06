@@ -32,6 +32,13 @@
     border-bottom-right-radius: 5px;
     border-left: 1px solid #FFF;
 }
+
+.whole {
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .button:hover {
   background-color: #FFF; /* Green */
   color: black;
@@ -87,4 +94,5 @@
 .card p {
     padding-left: 20px;
     height: 80px;
+    font-size: 14px;
 }
