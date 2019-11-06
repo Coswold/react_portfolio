@@ -26,7 +26,7 @@ class Contact extends Component {
                 <div class="status">
                   <ul>
                     <li><FontAwesomeIcon icon="briefcase" size='5x' color='white' />
-                    <h3>Currently a Production Assistant in Seattle</h3></li>
+                    <h3>Currently in Seattle</h3></li>
                     <li class="padding-top"><FontAwesomeIcon icon="coffee" size='5x' color='white' />
                     <h3>Always Open to Coffee Chats</h3></li>
                   </ul>
